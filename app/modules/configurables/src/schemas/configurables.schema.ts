@@ -71,5 +71,24 @@ export const configurableSchemas: ConfigurableSchemas = {
         },
       ],
     },
+    {
+      fieldName: "schoolDescription",
+      type: "string",
+      required: false,
+      label: "School Description",
+      maxLength: 500,
+    },
+    {
+      fieldName: "contactEmail",
+      type: "string",
+      required: false,
+      label: "Contact Email",
+    },
+    {
+      fieldName: "contactPhone",
+      type: "string",
+      required: false,
+      label: "Contact Phone",
+    },
   ],
 };

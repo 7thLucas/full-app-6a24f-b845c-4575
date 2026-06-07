@@ -16,6 +16,9 @@ export type TDefaultConfigurableData = {
   appName: string;
   logoUrl: string;
   brandColor: TBrandColor;
+  schoolDescription?: string;
+  contactEmail?: string;
+  contactPhone?: string;
   // Mirror new schema fields here. Example:
   //   maxItemsPerPage?: number;
   //   enableNotifications?: boolean;
@@ -23,13 +26,16 @@ export type TDefaultConfigurableData = {
 };
 
 export const defaultConfigurablesData: TDefaultConfigurableData = {
-  appName: "FILL_APP_NAME_HERE",
+  appName: "Music School Manager",
   logoUrl: "FILL_LOGO_URL_HERE",
   brandColor: {
-    primary: "FILL_PRIMARY_COLOR_HERE",
-    secondary: "FILL_SECONDARY_COLOR_HERE",
-    accent: "FILL_ACCENT_COLOR_HERE",
+    primary: "#2563EB",
+    secondary: "#F59E0B",
+    accent: "#10B981",
   },
+  schoolDescription: "",
+  contactEmail: "",
+  contactPhone: "",
   // ─────────────────────────────────────────────────────────────────────
   // Add new field defaults here. See RULES.md §5 for per-type shape.
   // Required branding fields → use the FILL_X_HERE placeholder pattern.
