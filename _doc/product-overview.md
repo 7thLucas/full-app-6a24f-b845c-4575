@@ -1,0 +1,1 @@
+Build me an app for music school administrators to help them schedule lessons, track student progress, and manage recitals with the goal to keep students progressing and parents engaged
