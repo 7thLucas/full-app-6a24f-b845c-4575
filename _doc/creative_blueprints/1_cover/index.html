@@ -1,0 +1,51 @@
+<style>
+.mode-landscape .sl-cover-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+.mode-portrait .sl-cover-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.mode-landscape .sl-cover-content {
+  flex: 1;
+}
+.mode-landscape .sl-cover-visual {
+  flex: 1;
+}
+.mode-portrait .sl-cover-visual {
+  width: 100%;
+  max-height: 40%;
+}
+</style>
+
+<section class="w-full h-full overflow-auto bg-white p-12">
+  <div class="sl-cover-layout h-full">
+    <div class="sl-cover-content flex flex-col justify-between h-full">
+      <div class="space-y-6">
+        <h1 class="text-6xl font-bold text-slate-900 leading-tight">
+          Music School<br />Operations,<br />Simplified
+        </h1>
+        <p class="text-2xl text-slate-600 leading-relaxed max-w-lg">
+          Keep students progressing and parents engaged with centralized scheduling, progress tracking, and recital management.
+        </p>
+      </div>
+
+      <div class="mt-auto">
+        <data-attribution />
+      </div>
+    </div>
+
+    <div class="sl-cover-visual">
+      <img
+        src="http://localhost:8001/common/image-generation?prompt=A+warm+sunlit+music+studio+with+a+grand+piano%2C+music+stands%2C+and+sheets+of+music+organized+neatly%2C+professional+photography%2C+calm+and+inspiring+atmosphere"
+        alt="Music studio"
+        class="w-full h-full object-cover rounded-2xl shadow-2xl"
+      />
+    </div>
+  </div>
+</section>
