@@ -1,0 +1,58 @@
+<style>
+.mode-landscape .sl-foundation-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.mode-portrait .sl-foundation-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.mode-landscape .sl-foundation-content {
+  flex: 1.5;
+}
+.mode-landscape .sl-foundation-visual {
+  flex: 1;
+}
+</style>
+
+<section class="w-full h-full overflow-auto bg-white p-12">
+  <div class="sl-foundation-layout h-full">
+    <div class="sl-foundation-content space-y-8">
+      <div class="space-y-4">
+        <div class="inline-block px-4 py-1.5 bg-rose-100 text-rose-800 rounded-full text-sm font-semibold">
+          The Problem
+        </div>
+        <h2 class="text-4xl font-bold text-slate-900 leading-tight">
+          Chaos behind the curtain
+        </h2>
+        <p class="text-lg text-slate-700 leading-relaxed">
+          Music school administrators juggle complex one-on-one lesson schedules across multiple instructors, lose visibility into student progress between lessons, and coordinate high-stakes recitals using spreadsheets and email threads. The result: wasted time, student attrition, and frustrated parents.
+        </p>
+      </div>
+
+      <div class="h-px bg-slate-200"></div>
+
+      <div class="space-y-4">
+        <div class="inline-block px-4 py-1.5 bg-emerald-100 text-emerald-800 rounded-full text-sm font-semibold">
+          The Solution
+        </div>
+        <h2 class="text-4xl font-bold text-slate-900 leading-tight">
+          One dashboard, complete control
+        </h2>
+        <p class="text-lg text-slate-700 leading-relaxed">
+          A purpose-built operations platform for music schools. Centralized lesson scheduling with conflict detection, transparent student progress tracking visible to parents, and streamlined recital coordination — all designed to reduce admin burden and keep students advancing.
+        </p>
+      </div>
+    </div>
+
+    <div class="sl-foundation-visual flex items-center">
+      <img
+        src="http://localhost:8001/common/image-generation?prompt=Clean+modern+dashboard+interface+on+a+laptop+screen+showing+a+music+school+calendar+and+student+progress+charts%2C+soft+lighting%2C+professional+product+photography"
+        alt="Dashboard preview"
+        class="w-full h-auto rounded-xl shadow-xl"
+      />
+    </div>
+  </div>
+</section>
